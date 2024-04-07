@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+          <div class="nav-left">
+            <h1>Profile</h1>
+            <a style="text-decoration:none" href="">Home</a>
+            <a style="text-decoration:none" href="">My Profile</a>
+            <a style="text-decoration:none" href="">Find Connections</a>
+          </div>  
+          <button>Sign Out</button>
+        </nav>
+        <main>
+            <div class="main-left">
+                <div class="profile">
+                    <div class="profile-bar">
+                        <img src="jane-m.jpg" alt="jane" class="jane-m">
+                    </div>
+                        
+                    <div class="profile-bottom">
+                        <h1 class="jd">Jane Doe</h1>
+                        <h3><img src="map-marker.png" alt="map-marker" class="icon-m"> Seattle</h3>
+                        <h3>Developer|Engineer|Problem Solver</h3>
+                        <h3>Master of Shadows and the Internet!</h3>
+                        <h3><img src="gear.png" alt="gear" class="icon-g"><a href="#" onclick="switchName()"> edit profile</a></h3>
+                    </div>
+
+                </div>
+                <div class="education">
+                    <div class="education-top-bar">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="education-body">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3>December 2019 - March 2020</h3>
+                        <h2>Triple black belt in Python, MERN, and C#...</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="connection-requests">
+                    <Div class="connection-requests-top-bar">
+                        <h2> <span>2</span>Connection Requests</h2>
+                    </Div>
+                    <div class="connection-requests-body">
+                            <h2 class="todd-text"><img class="toddPic" src="todd-s.jpg" alt="todd-s" class="todd-s"> Todd S <img onclick="removeT()" src="accept-circle.png" alt="accept-circle" class="accept-circle"> <img onclick="removeT()" src="close-circle.png" alt="close-circle" class="close-circle"></h2>
+                            <h2 class="phil-text"><img class="philPic" src="phil-s.jpg" alt="phil-s" class="phil-s"> Phil S <img onclick="removeP()" src="accept-circle.png" alt="accept-circle" class="accept-circle"> <img onclick="removeP()" src="close-circle.png" alt="close-circle" class="close-circle"></h2>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="connections-top-bar">
+                        <h2><span>+500</span>Your connections</h2>
+                    </div>
+                    <div class="connections-mid-bar">
+                        <h2><img src="adrien-s.jpg" alt="adrien-s" class="adrien-s">Adrien S</h2>
+                        <h2><img src="anne-s.jpg" alt="anne-s" class="anne-s">Anne S</S></h2>
+                        <h2><img src="alayne-s.jpg" alt="alayne-s" class="alayne-s">Alayne S</S></h2>
+                        <h2><img src="arry-s.jpg" alt="arry-s" class="arry-s">Arry S</h2>
+                    </div>
+                    <div class="connections-bottom-bar">
+                        <h2><a href="codingdojo.com"> View more</a></h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
